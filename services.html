@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html> 
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <title>Cafe Ecobite</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">>
+    
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo-removebg-preview (1).png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-info" onclick="showMenu()"></i>
+        </nav>
+        <h1>Services We Offer</h1>     
+</section>
+
+
+<!---- services ---->
+
+<section class="Services">
+    <h1>Services We Offer</h1>
+    <p>Where love for nature & food meet.</p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>Beverage Bliss</h3>
+            <p>Dive into a realm of exquisite flavors with our diverse selection of coffees, teas, and smoothies. Whether you prefer a robust espresso or a soothing herbal tea, we have something to delight every palate. Indulge in our Beverage Bliss and elevate your beverage experience to new heights.</p>
+        </div>
+        <div class="course-col">
+            <h3>Culinary Delights</h3>
+            <p>From freshly baked pastries to savory sandwiches, our Culinary Delights menu offers a tempting array of treats to satisfy any craving. Each item is crafted with quality ingredients and attention to detail, ensuring a delightful culinary experience with every bite. Whether you're in the mood for a light snack or a hearty meal, our menu has something to please every taste.</p>
+        </div>
+        <div class="course-col">
+            <h3>Convinient Comfort</h3>
+            <p>At our cafe, convenience meets comfort in a welcoming atmosphere designed for relaxation and enjoyment. Whether you're seeking a cozy corner to unwind with a book or grabbing a quick bite on the run, our cafe provides a haven where you can escape the hustle and bustle of daily life. With our convenient takeaway options, you can enjoy your favorite treats wherever your day takes you.</p>
+        </div>     
+    </div>
+
+
+</section>
+
+
+<!---- Cafe ----->
+
+
+<section class="cafe">
+    <h1>Our Cafe</h1>
+    <p>Our quaint little cafe, tucked away on a lively building, where the air is filled with the aroma of freshly brewed coffee.</p>
+
+    <div class="row">
+        <div class="cafe-col">
+            <img src="blog.jpg">
+            <div class="layer">
+                <h3>OUR PLACE</h3>
+            </div>
+        </div>
+        <div class="cafe-col">
+            <img src="place.jpg">
+            <div class="layer">
+                <h3>OUR SERVICES</h3>
+            </div>
+        </div>
+        <div class="cafe-col">
+            <img src="inside.jpg">
+            <div class="layer">
+                <h3>CAFE ECOBITE</h3>
+            </div>
+        </div>
+    
+    </div>
+
+</section>
+
+
+
+
+
+
+<!----- Footer ----->
+
+<section class="Footer">
+    <h4>More About Us</h4>
+    <p>Welcome to Cafe Ecobite, where culinary delights meet fine dining. Our menu is a symphony of flavors, featuring mouthwatering pizzas, comforting pastas, crispy chicken wings, and a tempting array of pastries, all crafted with care and sustainably sourced ingredients. Pair your meal with our artisanal coffees, brewed to perfection, for a truly satisfying experience. Join us in our cozy, warm space, where every bite is a step towards pure satisfaction.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Daniel Pierce E. Mariano</p>
+</section>
+
+
+
+<!------JavaScript for Toggle------>
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+
+</body>
+</html>

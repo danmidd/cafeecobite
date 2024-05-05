@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html> 
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <title>Cafe Ecobite</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">>
+    
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo-removebg-preview (1).png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-info" onclick="showMenu()"></i>
+        </nav>
+        <h1>Come And Try Out Our Cafe Now</h1>     
+</section>
+
+
+<!---- blog content ---->
+
+<section class="blog-content">
+
+    <div class="row">
+        <div class="blog-left">
+            <img src="blogfood.jpg">
+            <h2>Indulge & Inspire: A Culinary Adventure at Cafe Ecobite</h2>
+            <p>Nestled amidst the bustling streets of Cabanatuan City, Cafe Ecobite stands as a beacon of culinary excellence, beckoning food enthusiasts and coffee connoisseurs alike to experience a journey of gastronomic delight. From the moment you step inside, you're enveloped in an ambiance of warmth and comfort, setting the stage for an unforgettable dining experience.</p>
+            <br>
+            <p>At Cafe Ecobite, every dish tells a story, meticulously crafted with the finest locally sourced ingredients. Whether you're craving a hearty breakfast, a satisfying lunch, or a decadent dessert, the menu offers a tantalizing array of options to suit every palate. From the signature avocado toast adorned with vibrant heirloom tomatoes to the gourmet sandwiches bursting with flavor, each bite is a testament to the culinary artistry that defines this café.</p>
+            <br>
+            <p>For coffee aficionados, Cafe Ecobite is a haven of specialty brews and expertly crafted beverages. Sourcing beans from top roasters, the café's baristas work their magic to deliver a cup of coffee that's nothing short of perfection. From velvety lattes to bold pour-overs, each sip is a symphony of flavor and aroma, elevating the coffee-drinking experience to new heights.</p>
+            <br>
+            <p>But the delights of Cafe Ecobite extend beyond coffee. Freshly squeezed juices, house-made lemonades, and artisanal teas offer a refreshing respite, while the indulgent desserts leave taste buds tingling with delight. From rich chocolate lava cakes to delicate French pastries, each sweet treat is a masterpiece in its own right, meticulously crafted to satisfy even the most discerning sweet tooth.</p>
+            <br>
+            <p>Behind the scenes, the kitchen hums with activity as skilled chefs and culinary artisans work tirelessly to bring each dish to life. Every ingredient is handled with care, from the moment it arrives at the café to the final plating. Whether it's slicing vegetables with precision or decorating desserts with intricate designs, the dedication to quality shines through in every aspect of preparation.</p>
+            <br>
+            <p>In summary, Cafe Ecobite is more than just a café—it's a culinary journey waiting to be savored. With its diverse menu, expertly brewed beverages, and unwavering commitment to quality, it's no wonder that this café has become a beloved destination for food lovers and coffee enthusiasts alike. So why not indulge your senses and savor the moment at Cafe Ecobite? After all, life is too short not to enjoy the finer things in life.</p>
+
+
+
+
+            <div class="comment-box">
+
+                <h3>Leave A Note</h3>
+
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter Email">
+                    <textarea rows="5" placeholder="Your Note"></textarea>
+                    <button type="submit" class="hero-btn red-btn">POST NOTE</button>
+                </form>
+            </div>
+
+
+
+
+
+
+        </div>
+        <div class="blog-right">
+            <h3>Our Menu</h3>
+            <div>
+                <span>Chicken Wings</span>
+                <span>₱100+</span>
+            </div>
+            <div>
+                <span>Pizza</span>
+                <span>₱350+</span>
+            </div>
+            <div>
+                <span>Pasta</span>
+                <span>₱120+</span>
+            </div>
+            <div>
+                <span>Pastry</span>
+                <span>₱100+</span>
+            </div>
+            <div>
+                <span>Fruit Tea</span>
+                <span>80+</span>
+            </div>
+            <div>
+                <span>Iced & Hot Coffee</span>
+                <span>₱120+</span>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+
+
+
+<!----- Footer ----->
+
+<section class="Footer">
+    <h4>More About Us</h4>
+    <p>Welcome to Cafe Ecobite, where culinary delights meet fine dining. Our menu is a symphony of flavors, featuring mouthwatering pizzas, comforting pastas, crispy chicken wings, and a tempting array of pastries, all crafted with care and sustainably sourced ingredients. Pair your meal with our artisanal coffees, brewed to perfection, for a truly satisfying experience. Join us in our cozy, warm space, where every bite is a step towards pure satisfaction.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Daniel Pierce E. Mariano</p>
+</section>
+
+
+
+<!------JavaScript for Toggle------>
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html> 
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <title>Cafe Ecobite</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">>
+    
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo-removebg-preview (1).png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-info" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+</section>
+
+<!------- About Us Content ------->
+
+<section class="about-us">
+
+    <div class="row">
+        <div class="about-col">
+            <h1>We are a cozy neighborhood cafe, where the aroma of freshly brewed coffee welcomes you into a haven of delicious pastries and warm conversations.</h1>
+            <p>This cafe, located in the heart of the city, offers an exceptional experience for coffee lovers and casual drinkers alike. With its inviting atmosphere, delicious coffee, and mouthwatering pastries, it's more than just a place for a quick cup of coffee—it's an immersive experience. The aroma of freshly ground beans and the soothing chatter of patrons welcome you upon arrival. The skilled baristas craft each cup with expertise, resulting in a symphony of flavors. Whether you're seeking a cozy work spot, a place to meet friends, or simply a moment of relaxation, this cafe consistently surpasses expectations, making it a hidden gem worth revisiting.</p>
+            <a href="services.html" class="hero-btn red-btn">DIVE IN NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="food.jpg">
+
+        </div>
+    </div>
+
+
+ 
+</section>
+
+
+
+</section>
+
+
+<!----- Footer ----->
+
+<section class="Footer">
+    <h4>More About Us</h4>
+    <p>Welcome to Cafe Ecobite, where culinary delights meet fine dining. Our menu is a symphony of flavors, featuring mouthwatering pizzas, comforting pastas, crispy chicken wings, and a tempting array of pastries, all crafted with care and sustainably sourced ingredients. Pair your meal with our artisanal coffees, brewed to perfection, for a truly satisfying experience. Join us in our cozy, warm space, where every bite is a step towards pure satisfaction.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Daniel Pierce E. Mariano</p>
+</section>
+
+
+
+<!------JavaScript for Toggle------>
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+
+</body>
+</html>
